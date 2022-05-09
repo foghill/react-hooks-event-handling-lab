@@ -28,3 +28,4 @@ test("typing in the input triggers console output", () => {
   expect(console.log).toHaveBeenCalled();
   expect(console.log.mock.calls[0][0]).toBe("Entering password...");
 });
+
